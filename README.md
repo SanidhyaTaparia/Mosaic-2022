@@ -4,7 +4,7 @@
 
 
 
-<h2 align="center"> Introduction : </h2>
+<h2 align="center"> Handwritten Captcha Recoginition </h2>
 
 CAPTCHAs (Completely Automated Public Turing
 Tests to Tell Computers and Humans Apart) are
@@ -77,19 +77,3 @@ After setting up project just place your images in `line` folder under the `data
 NOTE: The model is trained for the above mentioned letters so give them only in input images for best output.
 
 <br>
-<h3 align="left"> Made and maintained by : </h3>
-
-<table>
-	<td align="center">
-     <a href="https://github.com/phoenixrider12">
-    <img src="https://avatars.githubusercontent.com/u/76533398?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Aryaman Gupta</b></sub></a><br />
-	</td>
- <td align="center">
-     <a href="https://github.com/Ankur-Agrawal-ece20">
-    <img src="https://avatars.githubusercontent.com/u/78701055?v=4" width="100px;" alt=""/><br /><sub><b>Ankur Agrawal</b></sub></a><br />
-    </td>
-<td align="center">
-     <a href="https://github.com/vivekagarwal2349">
-    <img src="https://avatars.githubusercontent.com/u/75940729?v=4" width="100px;" alt=""/><br /><sub><b>Vivek Agarwal</b></sub></a><br />
-	</td>
-</table>
