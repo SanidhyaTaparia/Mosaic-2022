@@ -4,25 +4,20 @@
 
 
 
-<h2 align="center"> Handwritten Captcha Recoginition </h2>
+<h1 align="center"> Handwritten Captcha Recognition </h1>
+
+
+<h2 align="left"> Introduction </h2>
 
 CAPTCHAs (Completely Automated Public Turing
 Tests to Tell Computers and Humans Apart) are
 something that almost every internet user has
-encountered. Many users are presented with
-strange-looking, stretched, fuzzy, coloured, and shape
-distorted visuals that look more like a Dali painting
-than English text while signing in or creating an
-account, making an online purchase, or even
-publishing a comment.
+encountered.They are used to differentiate a human client
+and a robot.
 
-With the growth of Artificial Intelligence, Machine
-Learning and Computer Vision, the need for strong
-captchas has increased, so that Computer Vision
-models are unable to automatically detect these
-captchas.
+This captcha solver has been developed using deep learning and convolutional neural networks along with the help of OpenCv for letter segmentation. It can be used to recognize captchas consisting of different letters as well as numbers. The model was trained on Google Colab using the EMINST by_class dataset in the form of a csv file. The dataset was modified to remove similar characters such as X and x. The model was trained to achieve a validation accuracy of 97% and a test accuracy of 92%.
 
-So for the same we bring to you the hand written captcha detector which has a pretrained model
+So for the same I bring to you the hand written captcha detector which has a pretrained model
 consisting of 19 letters:
 #### 'A','D','E','G','H','J','K','M','N','P','R','S','W','X', 'Z', 'a', 'b', 'd', 'g'
 and 7 emojis mapped as:
